@@ -26,7 +26,7 @@ const MainTabScreen = () => (
         tabBarLabel: 'Artists',
         tabBarColor: '#009387',
         tabBarIcon: ({ color }) => (
-          <Icon name="home" color={color} size={26} />
+          <Icon name="options" color={color} size={26} />
         ),
       }}
     />
@@ -37,7 +37,7 @@ const MainTabScreen = () => (
         tabBarLabel: 'Songs',
         tabBarColor: '#6699ff',
         tabBarIcon: ({ color }) => (
-          <Icon name="bell" color={color} size={26} />
+          <Icon name="megaphone-sharp" color={color} size={26} />
         ),
       }}
     />
@@ -48,7 +48,7 @@ const MainTabScreen = () => (
         tabBarLabel: 'Profile',
         tabBarColor: '#ff6600',
         tabBarIcon: ({ color }) => (
-          <Icon name="account" color={color} size={26} />
+          <Icon name="person" color={color} size={26} />
         ),
       }}
     />
@@ -59,7 +59,7 @@ const MainTabScreen = () => (
         tabBarLabel: 'Genres',
         tabBarColor: '#cca333',
         tabBarIcon: ({ color }) => (
-          <Icon name="account" color={color} size={26} />
+          <Icon name="navigate-circle" color={color} size={26} />
         ),
       }}
     />
