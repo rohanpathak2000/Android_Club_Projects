@@ -95,18 +95,7 @@ export function DrawerContent(props) {
                             label = "Settings"
                             onPress = {() => {props.navigation.navigate('Settings')}}
                         />  
-                        </Drawer.Section>
-                        <Drawer.Section title = "Preferences">
-                                <TouchableRipple onPress = {() => {toggleTheme()}}>
-                                    <View style={styles.preference}>
-                                        <Text>Dark Theme</Text>
-                                        <View pointerEvents = "none">
-                                            <Switch value={isDarkTheme}/>
-                                        </View>
-                                    </View>
-                                </TouchableRipple>
-                            
-                        </Drawer.Section>        
+                        </Drawer.Section>                                   
                 </View>
             </DrawerContentScrollView>
             <Drawer.Section style={styles.bottomDrawerSection}>
